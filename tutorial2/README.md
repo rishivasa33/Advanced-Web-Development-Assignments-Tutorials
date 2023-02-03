@@ -11,6 +11,8 @@
 
 * *Group 11 Git URL*: https://git.cs.dal.ca/andharia/csci5709-group11
 
+* *Personal Branch within group 11 Git URL (main-rishi)*: https://git.cs.dal.ca/andharia/csci5709-group11/-/tree/main-rishi
+
 * *Tutorial 2 Private Git URL*: https://git.cs.dal.ca/vasa/csci5709_individual_b00902815/-/tree/main/tutorial2
 
 
