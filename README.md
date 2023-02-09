@@ -1,20 +1,19 @@
 <!--- The following README.md sample file was adapted from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md by Gabriella Mosquera for academic use ---> 
 
 
-# CSCI 5709 - Winter 2023 - Tutorial 2
+# CSCI 5709 - Winter 2023 - Assignment 01 - SemiFunctional Prototype
 
-* *Date Created*: 02 February 2023
-* *Last Modification Date*: 02 February 2023
+* *Date Created*: 09 February 2023
+* *Last Modification Date*: 09 February 2023
 
 
-* *Deployed Netlify Application URL*: https://csci5709-rishivasa-tutorial2.netlify.app/
+* *Deployed Netlify Application URL*
 
-* *Group 11 Git URL*: https://git.cs.dal.ca/andharia/csci5709-group11
+* *Group 11 Git URL*: 
 
-* *Personal Branch within group 11 Git URL (main-rishi)*: https://git.cs.dal.ca/andharia/csci5709-group11/-/tree/main-rishi
+* *Personal Branch within group 11 Git URL (main-rishi)*:
 
-* *Tutorial 2 Private Git URL*: https://git.cs.dal.ca/vasa/csci5709_individual_b00902815/-/tree/main/tutorial2
-
+* *Tutorial 2 Private Git URL*: 
 
 
 ## Authors
