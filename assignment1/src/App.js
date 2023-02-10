@@ -1,13 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './UserDashboard/Dashboard';
+import Link from '@mui/material/Link';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello World! Welcome to Rishi's first React application
+          This is the website landing page!<br/>
+          <Link href = "/">
+            Semi Functional Prototype INCOMING for USER DASHBOARD (After User Logs in)!!!!!!!
+          </Link>
         </p>
       </header>
     </div>
