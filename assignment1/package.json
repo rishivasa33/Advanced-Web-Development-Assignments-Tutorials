@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "npm i && react-scripts start",
-    "build": "npm i && react-scripts build"
+    "build": "npm config set legacy-peer-deps true && npm i && react-scripts build"
   },
   "eslintConfig": {
     "extends": [
