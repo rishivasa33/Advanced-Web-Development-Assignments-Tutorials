@@ -15,7 +15,8 @@ import Grid from '@mui/material/Grid';
 import Toolbar from '@mui/material/Toolbar';
 import ProfileIcon from '@mui/icons-material/PermIdentity';
 import MoviesImg from './Movies.jpg';
-import StarRatingComponent from 'react-star-rating-component';
+import StarIcon from '@mui/icons-material/Star';
+import StarBorderIcon from '@mui/icons-material/StarBorder';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const cards = [1, 2, 3];
@@ -116,11 +117,9 @@ function DashboardContent() {
                                         </CardContent>
                                         <CardActions style={{ flex: 1, justifyContent: 'space-evenly' }}>
                                             <Button size="small">View Your Review</Button>
-                                            <StarRatingComponent
-                                                name="movieRating"
-                                                starCount={5}
-                                                value={Math.random() * 5}
-                                            />
+                                            <StarIcon></StarIcon>
+                                            <StarIcon></StarIcon>
+                                            <StarBorderIcon></StarBorderIcon>
                                         </CardActions>
                                     </Card>
                                 </Grid>
