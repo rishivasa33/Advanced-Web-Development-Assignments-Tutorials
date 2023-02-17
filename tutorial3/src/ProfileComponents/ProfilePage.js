@@ -1,13 +1,12 @@
-import './App.css';
 import Link from '@mui/material/Link';
 
 
-function App() {
+function Profile() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          This is the website landing page!<br/>
+          This is the website Profile page!<br/>
           <Link href = "/">
             Semi Functional Prototype INCOMING for USER DASHBOARD (After User Logs in)!!!!!!!
           </Link>
@@ -17,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default Profile;

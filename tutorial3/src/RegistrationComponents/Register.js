@@ -1,14 +1,13 @@
-import './App.css';
 import Link from '@mui/material/Link';
 
 
-function App() {
+function Regsiter() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          This is the website landing page!<br/>
-          <Link href = "/">
+          This is the website Registration page!<br/>
+          <Link href = "/profile">
             Semi Functional Prototype INCOMING for USER DASHBOARD (After User Logs in)!!!!!!!
           </Link>
         </p>
@@ -17,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default Regsiter;
