@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import ProfilePage from './ProfileComponents/ProfilePage';
-import Registration from './RegistrationComponents/Register';
+import ProfilePage from './components/ProfilePage';
+import Registration from './components/Register';
 import reportWebVitals from './reportWebVitals';
 
 import {
