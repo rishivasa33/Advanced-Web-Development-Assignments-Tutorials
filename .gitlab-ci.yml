@@ -6,6 +6,7 @@ stages:
 deploy:
   stage: deploy
   script:
+    - cd "$CI_PROJECT_DIR/tutorial4"
     - npm install
     - npm install netlify-cli -g
     - npm run build
