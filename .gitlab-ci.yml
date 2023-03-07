@@ -1,0 +1,14 @@
+image: node:latest
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - npm install
+    - npm install netlify-cli -g
+    - npm run build
+    - netlify deploy --dir "build" --auth $AUTH_TOKEN_RISHI --site $SITE_ID_T4 --prod
+  only:
+    - tutorial4
