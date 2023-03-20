@@ -1,19 +1,5 @@
-image: node:latest
-
 stages:
-  - build
   - deploy
-
-build-job:
-  stage: build
-  script:
-    - cd "$CI_PROJECT_DIR/tutorial5"
-    - npm install
-  artifacts:
-    paths:
-      - node_modules
-  only:
-    - tutorial5
 
 deploy-job:
   stage: deploy
