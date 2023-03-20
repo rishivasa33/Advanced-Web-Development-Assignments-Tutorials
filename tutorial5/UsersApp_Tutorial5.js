@@ -27,7 +27,7 @@ let listOfUsers =
     ];
 
 app.get('/', (request, response) => {
-    response.status(200).send("Hello, Welcome to Rishi's CSCI 5709 - Tutorial 5!");
+    response.status(200).send("Hello, Welcome to Rishi's CSCI 5709 - Tutorial 5!!");
 });
 
 app.get('/users', (request, response) => {
