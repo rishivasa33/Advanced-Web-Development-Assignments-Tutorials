@@ -7,6 +7,7 @@ stages:
 build-job:
   stage: build
   script:
+    - cd "$CI_PROJECT_DIR/tutorial5"
     - npm install
   artifacts:
     paths:
