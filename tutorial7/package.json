@@ -1,10 +1,10 @@
 {
-  "name": "tutorial5",
+  "name": "tutorial7",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "UsersApp_Tutorial7.js",
   "scripts": {
-    "start": "npm install && node UsersApp_Tutorial5.js"
+    "start": "npm install && node UsersApp_Tutorial7.js"
   },
   "author": "Rishi Vasa",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "helmet": "^6.0.1"
+    "helmet": "^6.0.1",
+    "mongoose": "^7.0.3"
   }
 }

@@ -1,14 +1,14 @@
 <!--- The following README.md sample file was adapted from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md by Gabriella Mosquera for academic use ---> 
 
 
-# CSCI 5709 - Winter 2023 - Tutorial 5
+# CSCI 5709 - Winter 2023 - Tutorial 7
 
-* *Date Created*: 16 March 2023
-* *Last Modification Date*: 16 March 2023
+* *Date Created*: 01 April 2023
+* *Last Modification Date*: 01 April 2023
 
-* *Deployed Render Application URL*: https://csci5709-rishivasa-tutorial5.onrender.com/
+* *Deployed Render Application URL*: https://csci5709-rishivasa-tutorial7.onrender.com/
 
-* *Tutorial 5 Private Git URL*: https://git.cs.dal.ca/vasa/csci5709_individual_b00902815/-/tree/tutorial5/
+* *Tutorial 5 Private Git URL*: https://git.cs.dal.ca/vasa/csci5709_individual_b00902815/-/tree/tutorial7
 
 
 
@@ -50,7 +50,7 @@ https://nodejs.org/en/download/
 3) Select GitLab (or whatever repository you chose)
 4) Authorize Render to connect to your personal GitHub account
 5) Select the branch you want to deploy from and configure build options
-6) Site will be deployed on Render and a URL will be generated which you can modify (https://csci5709-rishivasa-tutorial5.onrender.com/)
+6) Site will be deployed on Render and a URL will be generated which you can modify (https://csci5709-rishivasa-tutorial7.onrender.com/)
 
 ## Built With
 1) Node.js - JavaScript based Back End
@@ -64,35 +64,16 @@ https://nodejs.org/en/download/
 
 I have referred to the following documentation and sample code for completing the assignment:
 
-1) To Find an Object by ID on :
-https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects
+1) For MongoDB connections with Mongoose:
+https://mongoosejs.com/docs/connections.html
+https://www.workfall.com/learning/blog/how-to-connect-to-mongodb-using-mongoose-and-mongodb-atlas-in-node-js/
 
-2) For Post Request: 
+2) For Generating UUID: 
 https://stackoverflow.com/questions/34386914/generate-unique-random-string-with-javascript
 
-### UsersApp_Tutorial5.js
+### UsersApp_Tutorial7.js
 
-*Line 50*
-
-```
-const userToBeUpdated = listOfUsers.find((user) => user.id === userID);
-
-```
-
-The code above was created by adapting the code in [Find object by id in an array of JavaScript objects](https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects) as shown below: 
-
-```
-myArray.find(x => x.id === '45').foo;
-
-```
-
-- <!---Why---> [Find object by id in an array of JavaScript objects](https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects) 's Code was used because I needed to learn how to find an object by ID in node.js
-- <!---How---> [Find object by id in an array of JavaScript objects](https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects)'s Code was modified by me as I did not find the first value of the array, instead i found it based on my user-defined ID
-
-
-### UsersApp_Tutorial5.js
-
-*Lines 106 - 108*
+*Lines 144 - 146*
 
 ```
 function generateUUID(length) {
